@@ -2,6 +2,7 @@
 
 ## 主要内容
 
+- [Perl命令行参数](Perl命令行参数.md)
 - [01 文件行距](01文件行距.md)
 - [04 行计数](02行计数.md)
 - [03 数值计算](03数值计算.md)
@@ -16,5 +17,6 @@
 * <http://ijz.me/?tag=perl-one-liners>
 * <http://www.catonmat.net/download/perl1line.txt>
 * <http://www.catonmat.net/blog/perl-book/>
+* <http://www.perl.com/pub/a/2004/08/09/commandline.html>
 
 
