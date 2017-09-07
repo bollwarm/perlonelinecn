@@ -39,7 +39,7 @@ Perl 5.6.0之后的版本已经用use warnings; 替换了-w 。你应该使用 u
 
 - -M 可以像通常一样引用模块
 
-    perl -MLWP::Simple -e  'getstore ("http://www.163.com/","163.html")' ##下载整个网页
+     perl -MLWP::Simple -e  'getstore ("http://www.163.com/","163.html")' ##下载整个网页
 
 `-M+`模块名和 use模块名一样
 
@@ -114,6 +114,7 @@ Perl 5.6.0之后的版本已经用use warnings; 替换了-w 。你应该使用 u
 单独使用 -l 有两个效果：
 
 第一，自动 chomp 输入分隔号；
+
 第二，把$/ 值付给 $\ (这样 print 的时候就会自动在末尾加 \n )。
 
 - -l 参数, 用来给每一个输出加 \n。例如
@@ -135,12 +136,12 @@ Perl 5.6.0之后的版本已经用use warnings; 替换了-w 。你应该使用 u
 此文件会被用来储存原始文件以免被 -i 参数覆盖。
 这个例子把所有 php 字符替换为 perl :
 
-   perl -i -pe 's/\bPHP\b/Perl/g' file.txt
+    perl -i -pe 's/\bPHP\b/Perl/g' file.txt
 
 程序读取文件的每一行, 然后替换字符, 处理后的数据重新写入( 即覆盖 ) 源文件。
 如果不想覆盖源文件, 可以使用
 
-   perl -i.bak -pe 's/\bPHP\b/Perl/g' file.txt
+    perl -i.bak -pe 's/\bPHP\b/Perl/g' file.txt
 
 这里处理过的数据写入 file.txt , file.txt.bak 是源文件的备份。
 
