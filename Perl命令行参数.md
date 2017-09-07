@@ -47,7 +47,7 @@ Perl 5.6.0之后的版本已经用use warnings; 替换了-w 。你应该使用 u
 
 - -n 增加了循环的功能, 使你可以一行一行来处理文件
 
-     perl -n -e'print;' 1.txt 
+    perl -n -e 'print;' 1.txt 
 
 这与下面的程序一样。
 
